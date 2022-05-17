@@ -1,0 +1,20 @@
+a=2015-1912*(8/2-2);
+print a;
+a=a+1819;
+print a;
+if a==9{
+a=a+1;
+}
+else{
+a=a+2;
+};
+print a;
+i=1;
+for i<5;i=i+1{
+    print i;
+};
+print a;
+ while i<a{
+     print i;
+     i=i+2;
+ };
