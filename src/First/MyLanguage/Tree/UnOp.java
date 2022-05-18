@@ -1,10 +1,10 @@
 package First.MyLanguage;
 
-public class UnOpNode extends Node {
+public class UnOp extends Node {
     Token oper;
     Node value;
 
-    public UnOpNode(Token oper, Node value) {
+    public UnOp(Token oper, Node value) {
         this.oper = oper;
         this.value = value;
     }
